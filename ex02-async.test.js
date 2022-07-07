@@ -1,10 +1,4 @@
-const fetchData = async () => {
-  return new Promise((resolve, _reject) => {
-    setTimeout(() => {
-      resolve(["apple", "orange"]);
-    }, 200);
-  });
-};
+const { fetchData } = require("./utils");
 
 test("regular test fn returning promise", () => {
   return fetchData().then((data) => {
