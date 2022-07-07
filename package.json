@@ -1,0 +1,16 @@
+{
+  "name": "ex-jest",
+  "version": "1.0.0",
+  "description": "Examples for using Jest",
+  "author": "Nalaka Jayasena",
+  "keywords": [
+    "jest",
+    "examples"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
